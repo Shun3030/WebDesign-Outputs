@@ -1,0 +1,50 @@
+@import url("default.css");
+
+header {
+    background-image: url(../images/index_header.png);
+    background-size: cover;
+    color: #833638;
+    padding: 180px 0 100px 0;
+    border-bottom: 1px solid #72777D;
+}
+
+header h1 {
+    font-size: 70px;
+    opacity: 0.8;
+    margin: 0 auto;
+}
+
+header p {
+    font-size: 20px;
+    opacity: 0.8;
+    margin-left: 150px;
+}
+
+.contents {
+    background-color: #fff;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+
+.contents h1 {
+    background-color: #fff;
+    margin: 0 100px;
+    padding: 15px 10px 0px 10px;
+    border-bottom: 1px solid #72777D;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+.contents p {
+    list-style: none;
+    margin: 10px 300px;
+    padding: 5px 10px 0px 10px;
+    border-bottom: 1px solid #72777D;
+    font-size: 20px;
+    
+}
+
+footer {
+    background-color: #72777D;
+    color: #fff;
+}

@@ -1,0 +1,8 @@
+@import url("default.css");
+
+header {
+    background-size: cover;
+    color: #833638;
+    padding: 45px 0 25px 0;
+    border-bottom: 1px solid #72777D;
+}

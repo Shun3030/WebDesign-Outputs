@@ -1,0 +1,10 @@
+@import url("pages.css");
+
+header {
+    background-image: url("../images/lambda_header.jpg");
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+}
