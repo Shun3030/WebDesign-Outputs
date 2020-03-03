@@ -8,3 +8,36 @@ header img {
     width: 100px;
     height: 100px;
 }
+
+.contents {
+    padding: 10px;
+}
+
+.contents h2 {
+    color: #000080;
+}
+
+.description {
+    margin: 10px;
+    text-align: left;
+}
+
+.bingo {
+    border: 1px solid #72777D;
+    width: 48%;
+    height: 300px;
+    margin: 1%;
+    float: left;
+}
+
+.Lambda2 {
+    border: 1px solid #72777D;
+    width: 48%;
+    height: 300px;
+    margin: 1%;
+    float: right;
+}
+
+footer {
+    clear: both;
+}
