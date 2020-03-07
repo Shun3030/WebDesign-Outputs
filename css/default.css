@@ -2,9 +2,11 @@
 
 body {
     font-family: serif;
+    background-color: #c0c0c0;
 }
 
 .container {
+    background-color: #fff;
     max-width: 1000px;
     padding: 0;
     margin: 0 auto;
