@@ -28,11 +28,41 @@ header h1 {
     margin: 10px 30px 50px 30px;
 }
 
-.item h4 {
+.item h3 {
     color: #ff0000;
+    text-align: left;
+    width: 100%;
+    border-bottom: 1px solid #000;
 }
 
 .item p {
     margin-left: 20px;
     color: #000;
+}
+
+.certification {
+    text-align: center;
+    width: 48%;
+    height: 300px;
+    margin: 1% 1% 10% 1%;
+    float: left;
+}
+
+.certification h4 {
+    color: #000;
+}
+
+.certification p {
+    color: #ff0000;
+}
+
+.certification img {
+    transition-property: opacity;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0;
+}
+
+.certification img:hover {
+    opacity: .5;
 }
