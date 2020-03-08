@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="../css/javascript.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="../images/javascript_icon.png">
+            <h1>JavaScript</h1>
+        </header>
+
+        <div class="contents">
+            <p>このページが開かれた時刻</p>
+            <p id="datenow">now</p>
+        </div>
+
+        <div class="return">
+            <a href="../index.html">戻る</a>
+        </div>
+        <footer>
+            &copy; 2020 SasaShun
+        </footer>
+    </div>
+</body>
+<script>
+    'use strict'
+    document.getElementById('datenow').textContent = new Date();
+    window.alert('このページは現在作成中です。');
+</script>
+
+</html>

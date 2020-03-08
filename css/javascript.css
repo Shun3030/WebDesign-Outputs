@@ -1,0 +1,16 @@
+@import url("pages.css");
+
+header {
+    background-image: url("../images/javascript_header.png");
+    background-size: cover;
+}
+
+header img {
+    width: 130px;
+    height: 130px;
+}
+
+header h1 {
+    color: #fff;
+    margin: auto;
+}
