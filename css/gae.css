@@ -1,0 +1,41 @@
+@import url("pages.css");
+
+header {
+    background-image: url("../images/gae_header.png");
+    background-size: cover;
+}
+
+header img {
+    width: 130px;
+    height: 130px;
+}
+
+header h1 {
+    color: #fff;
+    margin: auto;
+}
+
+.contents h2 {
+    color: #000080;
+}
+
+.description {
+    margin: 10px;
+    text-align: left;
+}
+
+.guestbook {
+    border: 1px solid #72777D;
+    width: 48%;
+    height: 300px;
+    margin: 1%;
+    float: left;
+}
+
+.app2 {
+    border: 1px solid #72777D;
+    width: 48%;
+    height: 300px;
+    margin: 1%;
+    float: right;
+}
