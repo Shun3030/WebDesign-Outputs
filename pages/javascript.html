@@ -16,8 +16,7 @@
         </header>
 
         <div class="contents">
-            <p>このページが開かれた時刻</p>
-            <p id="datenow">now</p>
+            <p id="greeting">Hello!</p>
         </div>
 
         <div class="return">
@@ -30,8 +29,12 @@
 </body>
 <script>
     'use strict'
-    document.getElementById('datenow').textContent = new Date();
-    window.alert('このページは現在作成中です。');
+    let name = window.prompt("What's your name?");
+    if(name === null | name === '') {
+        name = 'Guest';
+    }
+    console.log(name);
+    document.getElementById('greeting').textContent = 'Hello, ' + name + '!';
 </script>
 
 </html>
