@@ -62,6 +62,8 @@ header h1 {
 }
 
 .certification img {
+    width: 50%;
+    height: auto;
     transition-property: opacity;
     transition-duration: 1s;
     transition-timing-function: ease;
