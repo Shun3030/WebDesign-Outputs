@@ -40,6 +40,11 @@ header h1 {
     color: #000;
 }
 
+#passedDates {
+    color: #ff0000;
+    font-weight: bold;
+}
+
 .certification {
     text-align: center;
     width: 48%;

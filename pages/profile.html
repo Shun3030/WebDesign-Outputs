@@ -19,7 +19,8 @@
             <h2>SasaShun</h2>
             <div class="item">
                 <h3>職業</h3>
-                <p>クラウドエンジニア（2年目）</p>
+                <p>クラウドエンジニア</p>
+                <p>入社から<span id=passedDates></span>日経過</p>
             </div>
             <div class="item">
                 <h3>紹介</h3>
@@ -62,6 +63,11 @@
                     <p>2020/01/22 取得</p>
                     <a href="https://aws.amazon.com/jp/certification/certified-developer-associate/" target=”_blank”><img src="../images/DVA_Badge.png"></a>
                 </div>
+                <div class="certification">
+                    <h4>Microsoft Certified Azure Fundamentals</h4>
+                    <p>2020/04/22 取得</p>
+                    
+                </div>
             </div>
         </div>
 
@@ -72,6 +78,29 @@
             &copy; 2020 SasaShun
         </footer>
     </div>
+    <script>
+        'use strict'
+
+        function countup(due) {
+            const now = new Date()
+            console.log(now);
+            const passage = now.getTime() - due.getTime();
+            console.log(passage);
+            const days = Math.floor(passage / 1000 / 60 / 60 / 24);
+
+            return days;
+        }
+
+        const joinDate = new Date;
+        joinDate.setFullYear(2018);
+        joinDate.setMonth(11);
+        joinDate.setDate(1);
+        console.log(joinDate);
+        const count = countup(joinDate);
+        console.log(count);
+
+        document.getElementById('passedDates').textContent = countup(joinDate);
+    </script>
 </body>
 
 </html>
